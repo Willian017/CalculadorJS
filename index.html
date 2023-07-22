@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <Main>
+        <article>
+            <div id="tela">
+                
+            </div>
+            <div class="botao1">
+                <div class="voltar" onclick="back()"><--</div>
+                <div class="limpar" onclick="clean()">C</div>
+                <div class="apagar" onclick="back()"><img src="https://cdn-icons-png.flaticon.com/512/159/159805.png" alt=""></div>
+            </div>
+            <div class="botao2">
+                <div class="sete" onclick="insert('7')">7</div>
+                <div class="oito" onclick="insert('8')">8</div>
+                <div class="nove" onclick="insert('9')">9</div>
+                <div class="dividir" onclick="insert('/')">/</div>
+            </div>
+            <div class="botao3">
+                <div class="quatro" onclick="insert('4')">4</div>
+                <div class="cinco" onclick="insert('5')">5</div>
+                <div class="seis" onclick="insert('6')">6</div>
+                <div class="multiplicar" onclick="insert('*')">X</div>
+            </div>
+            <div class="botao4">
+                <div class="um" onclick="insert('1')">1</div>
+                <div class="dois" onclick="insert('2')">2</div>
+                <div class="tres" onclick="insert('3')">3</div>
+                <div class="subtrair" onclick="insert('-')">-</div>
+            </div>
+            <div class="botao5">
+                <div class="virgula" onclick="insert('.')">.</div>
+                <div class="zero" onclick="insert('0')">0</div>
+                <div class="resultado" onclick="calcular()">=</div>
+                <div class="soma" onclick="insert('+')">+</div>
+            </div>
+        </article>
+    </Main>
+    <script src="script.js">
+    </script>
+</body>
+</html>
